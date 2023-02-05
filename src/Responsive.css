@@ -1,0 +1,163 @@
+@media (max-width: 516px) {
+
+    body{
+        padding: 14px;
+    }
+
+    .bg-grandient {
+        height: 82vh;
+    }
+
+    h1 {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .content p,
+    .content {
+        width: 95%;
+    }
+
+    .content button {
+        font-size: 10px;
+    }
+
+    .latest-video,
+    .Award-content {
+        height: 42vh;
+    }
+
+    .Award-content {
+        height: auto;
+        padding: 10px;
+        margin-bottom: 1.5rem;
+    }
+
+    .project-content {
+        position: absolute;
+        bottom: 17%;
+    }
+
+    .project-content h2 {
+        width: 90%;
+    }
+
+    .news-img {
+        height: 30vh;
+    }
+
+    .about-content p {
+        width: 95%;
+        text-align: center;
+    }
+
+    .about-bg,
+    .bg-img {
+        height: 50vh;
+    }
+
+    .border-line:nth-child(1) .card-feature,
+    .border-line:nth-child(2) .card-feature,
+    .border-line:nth-child(3) .card-feature,
+    .border-line:nth-child(4) .card-feature,
+    .border-line:nth-child(5) .card-feature,
+    .border-line:nth-child(6) .card-feature {
+        border-radius: 20px;
+    }
+    .border-line:nth-child(5),
+    .border-line:nth-child(1),
+    .border-line:nth-child(2),
+    .border-line:nth-child(3){
+        border: none !important;
+    }
+
+    .card-feature {
+        height: auto;
+        padding: 1.5rem;
+        margin: 10px 0;
+    }
+    .com-header h2 {
+        font-size: 1.9rem;
+    }
+    .project-price h5 {
+        width: 42%;
+    }
+    .project-client-content h3 {
+        font-size: 1rem;
+    }
+
+    .website-sec {
+        padding: 1rem;
+    }
+    .prodimg,
+    .webiste-img{
+        height: 40vh;
+    }
+    .webiste-img img{
+        border-radius: 20px;
+    }
+    .webiste-bottom{
+        display: block;
+    }
+    .header-btn{
+        justify-content: flex-start;
+    }
+    .website-sec h2 {
+        font-size: 1.7rem;
+    }
+    .desgin-content {
+        height: auto;
+    }
+    .btn-side{
+        overflow: scroll;
+    }
+    .btn-side::-webkit-scrollbar{
+        display: none;
+    }
+    .pagination-wid{
+        width: 11rem;
+        text-align: center;
+    }
+    .pagination-lg .page-link{
+        padding: 10px;
+    }
+    .feature-list {
+        width: 100%;
+    }
+    .navbar-light .navbar-toggler{
+        color: #fff;
+        font-size: 16px;
+        border: none;
+    }
+    button:focus:not(:focus-visible){
+        box-shadow: none;
+    }
+    .navbar-nav {
+        border-radius: 20px;
+        padding: 1rem 0;
+    }
+    .form-section{
+        width: 100%;
+        padding: 10px;
+    }
+    .form-data{
+        /* border: 1px solid red; */
+        padding: 10px;
+        flex-direction: column;
+    }
+    .input-fields{
+        width: 100%;
+    }
+    .row-level{
+        padding: 12px 6px !important;
+    }
+    .pro {
+        width: 50px;
+        height: 50px;
+    }
+    .client-profile{
+        height: auto;
+    }
+
+
+}
